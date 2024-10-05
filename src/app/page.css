@@ -1,0 +1,16 @@
+
+.novu-popover-trigger {
+  background-color: red;
+}
+
+.novu-popover-trigger:hover {
+  background-color: blue;
+}
+
+.nv-workflowContainer:first-child {
+  display: none;
+}
+
+.nv-preferences__button {
+  display: none;
+}
