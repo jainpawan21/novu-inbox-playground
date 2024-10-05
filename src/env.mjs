@@ -6,10 +6,9 @@ export const env = createEnv({
    * Serverside Environment variables, not available on the client.
    * Will throw if you access these variables on the client.
    */
-  //   server: {
-  //     DATABASE_URL: z.string().url(),
-  //     OPEN_AI_API_KEY: z.string().min(1),
-  //   },
+  server: {
+    NOVU_SECRET_KEY: z.string(),
+  },
   /*
    * Environment variables available on the client (and server).
    *
@@ -29,5 +28,6 @@ export const env = createEnv({
     NEXT_PUBLIC_SUBSCRIBER_ID: process.env.NEXT_PUBLIC_SUBSCRIBER_ID,
     NEXT_PUBLIC_NOVU_APPLICATION_IDENTIFIER:
       process.env.NEXT_PUBLIC_NOVU_APPLICATION_IDENTIFIER,
+    NOVU_SECRET_KEY: process.env.NOVU_SECRET_KEY,
   },
 });
