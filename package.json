@@ -10,9 +10,9 @@
   },
   "dependencies": {
     "@novu/framework": "^2.1.1",
-    "@novu/react": "2.0.0-canary.3",
+    "@novu/react": "2.4.0",
     "@t3-oss/env-nextjs": "^0.11.1",
-    "next": "14.2.6",
+    "next": "14.2.13",
     "react": "^18",
     "react-dom": "^18",
     "zod": "^3.23.8",
